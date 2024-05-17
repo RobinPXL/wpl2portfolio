@@ -102,11 +102,17 @@
 footer {
     background-attachment: fixed;
     padding: 2em;
-
+    font-size: .7em;
 }
 
 footer a {
     text-decoration: none;
+}
+
+footer .RobinURL:hover{
+    color: purple;
+    font-size: 1.2em;
+    transition: .5s;
 }
 
 .linkedInIcon,
