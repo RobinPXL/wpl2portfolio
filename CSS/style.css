@@ -1,0 +1,13 @@
+:root {
+    --baby_blue: #09b9d3;
+    --fresh_green: #a2bc11;
+    --cute_pink: #de99df;
+    --white: #fff;
+    --black: #000;
+}
+
+*{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
