@@ -4,10 +4,68 @@
     --cute_pink: #de99df;
     --white: #fff;
     --black: #000;
+
+    font-size: 18px;
 }
 
-*{
+* {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+
+/* Algemene css voor alle pagina's START */
+.pinkText {
+    color: var(--cute_pink);
+}
+
+.pinkBG {
+    background-color: var(--cute_pink);
+}
+
+.blueText {
+    color: var(--baby_blue);
+}
+
+.blueBG {
+    color: var(--baby_blue);
+}
+
+.greenText {
+    color: var(--fresh_green);
+}
+
+.greenBG {
+    color: var(--fresh_green);
+}
+
+/* Algemene css voor alle END */
+
+/* ------------------------PAGINA HOME--------------------------- */
+.robinLogo {
+    width: 10%;
+}
+
+.myNavStyle a {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2em;
+}
+
+.myNavStyle a:hover {
+    color: purple;
+}
+
+.headTitle {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--baby_blue);
+
+    font-size: 4.5em;
+}
+
+.introSectionBox{
+    padding: 3em;
 }

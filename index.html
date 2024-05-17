@@ -18,26 +18,42 @@
 
 <body>
     <header>
-        <ul class="nav d-flex justify-content-end flex-wrap">
-            <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">About me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Works</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">WPL1</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">WPL2</a>
-            </li>
-        </ul>
+        <div class="d-flex justify-content-around flex-wrap align-items-center mt-3">
+            <img src="/IMAGES/icon.png" class="robinLogo">
+            <ul class="nav d-flex justify-content-end flex-wrap myNavStyle">
+                <li class="nav-item">
+                    <a class="nav-link active blueText" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link greenText" href="#">About me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link pinkText" href="#">Works</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link blueText" href="#">WPL1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link greenText" href="#">WPL2</a>
+                </li>
+            </ul>
+        </div>
     </header>
-    <main>
-        <h1>Hello world</h1>
+    <main class="mt-3">
+        <h1 class="text-center headTitle">My portfolio</h1>
+        <section class="introSectionBox d-flex flex-wrap align-items-center">
+            <section class="introTextBox col-sm-6">
+                <h1 class="text-center headTitle">Coucou, friend!</h1>
+                <p>I'm a creative soul with a passion for anything digital. My expertise lies in
+                    design, but I'm not shy in development, video-editing, or illustrating.</p>
+                <p>This website is my second attempt at a portfolio website with a much cleaner interface and simpler
+                    interactions. Are you curious to see my old website? Head over <a href="#" target="_blank">here</a>
+                    to see it for yourself!</p>
+            </section>
+            <section class="introImageBox col-sm-6 text-center">
+                <img src="/IMAGES/icon.png" height="500">
+            </section>
+        </section>
     </main>
     <footer></footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
