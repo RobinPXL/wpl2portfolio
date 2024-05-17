@@ -28,7 +28,7 @@
 }
 
 .blueBG {
-    color: var(--baby_blue);
+    background-color: var(--baby_blue);
 }
 
 .greenText {
@@ -36,12 +36,20 @@
 }
 
 .greenBG {
-    color: var(--fresh_green);
+    background-color: var(--fresh_green);
 }
 
 /* Algemene css voor alle END */
 
 /* ------------------------PAGINA HOME--------------------------- */
+.headerBanner {
+    background-image: url(/IMAGES/banner.png);
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .robinLogo {
     width: 10%;
 }
@@ -66,6 +74,51 @@
     font-size: 4.5em;
 }
 
-.introSectionBox{
+.subTitle {
+    font-size: 3em;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.introSectionBox {
     padding: 3em;
+}
+
+.introTextBox a {
+    text-decoration: none;
+}
+
+.introTextBox a:hover {
+    color: purple;
+    font-size: 1.2em;
+    transition: .5s;
+}
+
+.introImageBox img {
+    width: 50%;
+}
+
+footer {
+    background-attachment: fixed;
+    padding: 2em;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.linkedInIcon,
+.instagramIcon,
+.tumblrIcon,
+.emailIcon {
+    font-size: 1em;
+}
+
+.linkedInIcon i,
+.instagramIcon i,
+.tumblrIcon i,
+.emailIcon i {
+    text-decoration: none;
 }
