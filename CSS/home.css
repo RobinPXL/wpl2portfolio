@@ -1,0 +1,33 @@
+.headTitle {
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--baby_blue);
+
+    font-size: 4.5em;
+}
+
+.subTitle {
+    font-size: 3em;
+    font-family: "Micro 5", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.introSectionBox {
+    padding: 3em;
+}
+
+.introTextBox a {
+    text-decoration: none;
+}
+
+.introTextBox a:hover {
+    color: purple;
+    font-size: 1.2em;
+    transition: .5s;
+}
+
+.introImageBox img {
+    width: 50%;
+}
