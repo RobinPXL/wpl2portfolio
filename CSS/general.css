@@ -18,6 +18,7 @@
 .pinkText {
     font-weight: bold;
     color: var(--cute_pink);
+    text-decoration: none;
 }
 
 .pinkBG {
@@ -27,6 +28,7 @@
 .blueText {
     font-weight: bold;
     color: var(--baby_blue);
+    text-decoration: none;
 }
 
 .blueBG {
@@ -36,6 +38,7 @@
 .greenText {
     font-weight: bold;
     color: var(--fresh_green);
+    text-decoration: none;
 }
 
 .greenBG {
