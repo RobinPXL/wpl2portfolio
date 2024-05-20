@@ -5,3 +5,36 @@
 
     font-size: 2.5em;
 }
+
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+}
+
+.card img{
+    border-radius: 20px 20px 0 0;
+}
+
+.btn-primary{
+    margin: auto;
+    background-color: var(--cute_pink);
+    background-image: linear-gradient(to right, var(--baby_blue) 0%, var(--fresh_green) 50%, var(--cute_pink) 100%);
+    border-radius: 20px;
+    border: none;
+}
+
+.sideNav{
+    background-color: var(--white);
+    position: sticky;
+    position: -webkit-sticky;
+    top: 20vh;
+    height: 24em;
+    border-radius: 20px;
+    padding: 2em;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.sideNav a:hover{
+    color: purple;
+    transition: .3s;
+}
