@@ -6,6 +6,11 @@
     font-size: 2.5em;
 }
 
+.deliverablesBox a:hover {
+    color: purple;
+    transition: .3s;
+}
+
 .card {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     border-radius: 20px;
@@ -39,8 +44,14 @@
     transition: .3s;
 }
 
+@media only screen and (max-width: 1200px) {
+    .sideNav {
+        display: none;
+    }
+}
+
 @media only screen and (max-width: 400px) {
-    .sideNav{
+    .sideNav {
         position: relative;
         top: auto;
     }

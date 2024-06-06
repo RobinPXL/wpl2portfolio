@@ -111,6 +111,10 @@ footer .RobinURL:hover{
     transition: .5s;
 }
 
+footer ul{
+    padding: 0;
+}
+
 .linkedInIcon,
 .instagramIcon,
 .tumblrIcon,
