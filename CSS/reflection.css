@@ -1,3 +1,12 @@
+.reflectionBox{
+    margin-top: 6em;
+}
+
+img{
+    width: 50%;
+    margin: auto;
+}
+
 .quickLinks ul li{
     list-style: none;
 }
@@ -13,4 +22,8 @@
 .btn-primary:hover{
     padding: 1em;
     transition: .3s;
+}
+
+small{
+    font-size: 12px;
 }
